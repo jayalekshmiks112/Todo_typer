@@ -11,3 +11,11 @@ __version__="0.1.0"
     ID_ERROR,
 ) = range(7)
 
+ERRORS = {
+
+    DIR_ERROR: "config directory error",
+    FILE_ERROR: "config file error",
+    DB_READ_ERROR:"Database read error",
+    DB_WRITE_ERROR:"database write error",
+    ID_ERROR:"to-do id error",
+}
